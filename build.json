@@ -1,0 +1,28 @@
+{
+    "ios": {
+        "debug": {
+            "codeSignIdentity": "",
+            "developmentTeam": "",
+            "packageType": "development",
+            "automaticProvisioning": true,
+            "buildFlag": [
+                "CODE_SIGNING_ALLOWED = No",
+                "CODE_SIGNING_REQUIRED = No",
+                "CODE_SIGN_IDENTITY = ",
+                "-UseModernBuildSystem=0"
+            ]
+        },
+        "release": {
+            "codeSignIdentity": "",
+            "developmentTeam": "",
+            "packageType": "app-store",
+            "automaticProvisioning": true,
+            "buildFlag": [
+                "CODE_SIGNING_ALLOWED = No",
+                "CODE_SIGNING_REQUIRED = No",
+                "CODE_SIGN_IDENTITY = ",
+                "-UseModernBuildSystem=0"
+            ]
+        }
+    }
+}
